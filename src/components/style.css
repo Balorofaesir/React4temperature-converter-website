@@ -1,0 +1,49 @@
+.convertCont{
+    margin:px;
+    display: grid;
+    grid-row: 1fr 1fr;
+  
+}
+.varCont{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.degreeCont{
+    display: grid;
+    grid-row: 1fr 1fr;
+}
+.degrees{
+    width:70px;
+    height: 18px;
+}
+.optionCont{
+    display: grid;
+    grid-row: 1fr 1fr;
+}
+.selectTemp{
+    height: 24px;
+}
+
+button{
+    background-color: rgb(85, 137, 232);
+    border: none;
+    color: white;
+    border-radius: 2px;
+    height: 24px;
+    align-self: flex-end;
+    width: 20%;
+    
+}
+button:active{
+    background-color: rgb(85, 137, 232, 50%);
+    color:rgb(85, 137, 232);
+}
+p{
+    margin: 0;
+}
+
+label{
+    color: gray;
+    font-size: 10px;
+}
